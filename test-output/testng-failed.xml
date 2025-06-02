@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.myntra.MyntraSignUpTest">
+      <class name="com.myntra.MyntraAddToCartTest">
         <methods>
+          <include name="validateSearch"/>
           <include name="openBrowse"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="signUpCheck"/>
         </methods>
-      </class> <!-- com.myntra.MyntraSignUpTest -->
+      </class> <!-- com.myntra.MyntraAddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
